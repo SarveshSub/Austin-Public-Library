@@ -11,9 +11,6 @@ import CustomEvent from "./components/CustomEvent";
 import SearchResultsModal from "./components/SearchResultsModal";
 import EventModal from "./components/EventModal";
 
-
-// moment.tz.setDefault('America/Chicago')
-
 const localizer = momentLocalizer(moment);
 
 const eventPropGetter = (event) => {
